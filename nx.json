@@ -12,24 +12,24 @@
   },
   "projects": {
     "frontend": {
-      "tags": []
+      "tags": ["scope:frontend"]
     },
     "frontend-e2e": {
-      "tags": [],
+      "tags": ["scope:frontend"],
       "implicitDependencies": ["frontend"]
     },
     "admin": {
-      "tags": []
+      "tags": ["scope:admin"]
     },
     "admin-e2e": {
-      "tags": [],
+      "tags": ["scope:admin"],
       "implicitDependencies": ["admin"]
     },
     "ui": {
-      "tags": []
+      "tags": ["scope:shared"]
     },
     "data": {
-      "tags": []
+      "tags": ["scope:shared"]
     }
   }
 }
