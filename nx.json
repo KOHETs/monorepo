@@ -17,6 +17,13 @@
     "frontend-e2e": {
       "tags": [],
       "implicitDependencies": ["frontend"]
+    },
+    "admin": {
+      "tags": []
+    },
+    "admin-e2e": {
+      "tags": [],
+      "implicitDependencies": ["admin"]
     }
   }
 }
